@@ -18,7 +18,7 @@ MongoUtil.prototype.connect=function(callback){
 		}
 	});
 }
-
+//.....
 MongoUtil.prototype.close = function(){
 	this.db.close();
 }
